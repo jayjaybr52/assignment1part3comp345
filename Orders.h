@@ -1,24 +1,12 @@
 #include <iostream>
 #include <string>
 #include <vector>
-
-
+#include "Player.h"
+#include "Map.h"
 
 //create Orders class, and the subclasses are the deploy, attack, negotiate, etc. user input determines which subclass is created 
 //(and can also make invalid order that's placed in list and then jsut ignored)
 //Orderlist class will hold the orders
-
-class Player{
-public:
-	Player* getOwner();
-	int* getArmies();
-};
-class Territory{
-public:
-	int* getArmies();
-	Player* getOwner();
-	bool* isAdjacent();
-};
 
 class Orders 
 {
